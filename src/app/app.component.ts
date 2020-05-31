@@ -4,8 +4,10 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   template: `
     <h1>
-      Welcome to {{ title }}!
+      Shopping List
     </h1>
+    <h2>Get it done today</h2>
+    <h2>No excuses</h2>
 
     <app-manager></app-manager>
   `
