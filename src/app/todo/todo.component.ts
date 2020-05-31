@@ -1,15 +1,19 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { TodoItem } from './../interfaces/todo-item';
 
 @Component({
   selector: 'app-todo',
-  templateUrl: './todo.component.html',
+  template: `
+    {{ item.title }}
+  `,
   styleUrls: ['./todo.component.css']
 })
 export class TodoComponent implements OnInit {
+  @Input() item: TodoItem;
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
   }
 
 }
