@@ -4,14 +4,14 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   template: `
     <h1>
-      Shopping List
+      {{ title }}
     </h1>
-    <h2>Get it done today</h2>
-    <h2>No excuses</h2>
+    <p>Get it done today</p>
+    <p>No excuses</p>
 
     <app-manager></app-manager>
   `
 })
 export class AppComponent {
-  title = 'My To Do List APP';
+  title = 'Shopping List';
 }
