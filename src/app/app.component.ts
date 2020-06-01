@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
+  selector: 'root',
   template: `
     <header></header>
-    <app-manager></app-manager>
+    <manager></manager>
   `
 })
 export class AppComponent {
-  title = 'Angular Shopping List';
+  
 }

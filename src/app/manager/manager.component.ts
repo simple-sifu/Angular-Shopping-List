@@ -2,13 +2,13 @@ import { Component, OnInit } from '@angular/core';
 import { TodoItem } from '../interfaces/todo-item';
 
 @Component({
-  selector: 'app-manager',
+  selector: 'manager',
   template: `
-    <app-input-button (submit)="addItem($event)"></app-input-button>
+    <input-button (submit)="addItem($event)"></input-button>
 
     <ul>
       <li *ngFor="let todoItem of todoList">
-        <app-todo [item]="todoItem"></app-todo>
+        <todo [item]="todoItem"></todo>
       </li>
     </ul>
   `,

@@ -1,6 +1,6 @@
 import { Component, OnInit, Output, EventEmitter} from '@angular/core';
 @Component({
-  selector: 'app-input-button',
+  selector: 'input-button',
   template: `
     <input #inputElementRef
            placeholder="enter items"
