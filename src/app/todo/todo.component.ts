@@ -11,7 +11,7 @@ import { TodoItem } from './../interfaces/todo-item';
 export class TodoComponent implements OnInit {
   @Input() item: TodoItem;
 
-  constructor() { }
+  // constructor() { }
 
   ngOnInit() {
   }

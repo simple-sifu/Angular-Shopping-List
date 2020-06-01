@@ -25,7 +25,7 @@ export class ManagerComponent implements OnInit {
     {todoValue: 'Candles'},
   ];
 
-  constructor() { }
+  // constructor() { }
 
   ngOnInit() {
   }

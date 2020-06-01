@@ -16,7 +16,7 @@ export class InputButtonComponent implements OnInit {
 
   @Output() submit: EventEmitter<string> = new EventEmitter();
 
-  constructor() { }
+  // constructor() { }
 
   ngOnInit() {
   }
