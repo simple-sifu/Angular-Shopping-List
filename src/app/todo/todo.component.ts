@@ -4,7 +4,7 @@ import { TodoItem } from './../interfaces/todo-item';
 @Component({
   selector: 'todo',
   template: `
-    {{ item.title }}
+    {{ item.todoValue }}
   `,
   styleUrls: ['./todo.component.css']
 })

@@ -1,4 +1,4 @@
 export interface TodoItem {
-    title: string;
-    completed?: boolean;
+    todoValue: string;
+    // completed?: boolean;
 }

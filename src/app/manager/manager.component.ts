@@ -17,12 +17,12 @@ import { TodoItem } from '../interfaces/todo-item';
 export class ManagerComponent implements OnInit {
 
   todoList: TodoItem[] = [
-    {title: 'Notebook'},
-    {title: 'Jello'},
-    {title: 'Spinach'},
-    {title: 'Rice'},
-    {title: 'Birthday Cake'},
-    {title: 'Candles'},
+    {todoValue: 'Notebook'},
+    {todoValue: 'Jello'},
+    {todoValue: 'Spinach'},
+    {todoValue: 'Rice'},
+    {todoValue: 'Birthday Cake'},
+    {todoValue: 'Candles'},
   ];
 
   constructor() { }
@@ -30,7 +30,7 @@ export class ManagerComponent implements OnInit {
   ngOnInit() {
   }
 
-  addItem(title: string) {
-    this.todoList.push({ title });
+  addItem(todoValue: string) {
+    this.todoList.push({ todoValue });
   }
 }
